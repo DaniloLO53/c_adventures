@@ -4,7 +4,7 @@ int increment() {
   int var = 3;
   int garb; // it is initialized with garbage
   static int count; // only avaliable to this file and
-  // initialized with 1 due to static
+  // initialized with 0 due to static
   // static int count2 = var; // ERROR - it must be initialized with
   // a contant value
   count += 1;
